@@ -10,11 +10,11 @@
         xgboost = 1.2.0
 
 ## Start
-                `pip install pandas`
-                `pip install pickle`
-                `pip install sklearn`
-                `pip install xgboost`
-                `pip install random`
+`pip install pandas`
+`pip install pickle`
+`pip install sklearn`
+`pip install xgboost`
+`pip install random`
 
 ## How to run
 

@@ -25,16 +25,16 @@ xgboost = 1.2.0
     Model_name = 'VirusImmu'
 
 ### Use the E-descriptor to represent protein sequences
-Model.descriptor_made_txt(content)
-input: Protein sequences in text format(content)
-output: the results represented by the E-descriptor, the output address is：./data/test/descriptor_result/result.csv
+        Model.descriptor_made_txt(content)
+        input: Protein sequences in text format(content)
+        output: the results represented by the E-descriptor, the output address is：./data/test/descriptor_result/result.csv
 
 
 ### ACC transformation
-Model.ACC_caculated()
-output: the result of ACC transformation, the output address is ./data/test/acc_result/E_ACC_l=8.csv
+        Model.ACC_caculated()
+        output: the result of ACC transformation, the output address is ./data/test/acc_result/E_ACC_l=8.csv
 
 
 ### immunogenicity prediction by our model
-'python Run.py main()'
-output: the predicted result of the 'xxxx' model for the input protein sequence, the output address is: ./output/result.csv
+        python Run.py main()
+        output: the predicted result of the 'xxxx' model for the input protein sequence, the output address is: ./output/result.csv

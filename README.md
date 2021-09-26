@@ -19,10 +19,10 @@ xgboost = 1.2.0
 ## How to run
 
 ### Parameters
-  descriptor = E
-  L = 8
-  Thred = 0.4
-  Model_name = 'VirusImmu'
+    descriptor = E
+    L = 8
+    Thred = 0.4
+    Model_name = 'VirusImmu'
 
 ### Use the E-descriptor to represent protein sequences
 Model.descriptor_made_txt(content)

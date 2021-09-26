@@ -35,6 +35,6 @@ xgboost = 1.2.0
         output: the result of ACC transformation, the output address is ./data/test/acc_result/E_ACC_l=8.csv
 
 
-### immunogenicity prediction by our model
+### Immunogenicity prediction by our model
         python Run.py main()
         output: the predicted result of the 'xxxx' model for the input protein sequence, the output address is: ./output/result.csv
